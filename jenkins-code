@@ -8,11 +8,6 @@ pipeline{
       stage("Gte Checkout"){
           steps{
               git credentialsId: 'prithvi1494',  url: 'https://github.com/prithvi1494/JENKINS.git
-
-prithvi1494/JENKINS
-JENKINS-CI/CD. Contribute to prithvi1494/JENKINS development by creating an account on GitHub.
-github.com
-'
           }
       }
       stage("Maven Build"){
